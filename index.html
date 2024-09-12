@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Mi Sitio</a>
+                <ul class="nav-links">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="carousel-container">
+                <div class="static-overlay">
+                    <img src="https://via.placeholder.com/400x200.png?text=Imagen+Estática" alt="Imagen estática" class="static-image">
+                    <h1>Bienvenido a Mi Sitio</h1>
+                </div>
+                <div class="carousel">
+                    <img src="https://via.placeholder.com/800x400.png?text=Imagen+1" alt="Imagen 1" class="carousel-item">
+                    <img src="https://via.placeholder.com/800x400.png?text=Imagen+2" alt="Imagen 2" class="carousel-item">
+                    <img src="https://via.placeholder.com/800x400.png?text=Imagen+3" alt="Imagen 3" class="carousel-item">
+                    <img src="https://via.placeholder.com/800x400.png?text=Imagen+4" alt="Imagen 4" class="carousel-item">
+                    <img src="https://via.placeholder.com/800x400.png?text=Imagen+5" alt="Imagen 5" class="carousel-item">
+                </div>
+                <button class="carousel-button prev" aria-label="Imagen anterior">&lt;</button>
+                <button class="carousel-button next" aria-label="Imagen siguiente">&gt;</button>
+            </div>
+
+            <div class="panel-container">
+                <h3>Discografía</h3>
+                <div class="dynamic-containers-wrapper">
+                    <div class="dynamic-container">
+                        <img src="https://via.placeholder.com/200x200.png?text=Imagen+1" alt="Imagen 1">
+                        <div class="content">
+                            <h3>Contenedor 1</h3>
+                        </div>
+                    </div>
+                    <div class="dynamic-container">
+                        <img src="https://via.placeholder.com/200x200.png?text=Imagen+2" alt="Imagen 2">
+                        <div class="content">
+                            <h3>Contenedor 2</h3>
+                        </div>
+                    </div>
+                    <div class="dynamic-container">
+                        <img src="https://via.placeholder.com/200x200.png?text=Imagen+3" alt="Imagen 3">
+                        <div class="content">
+                            <h3>Contenedor 3</h3>
+                        </div>
+                    </div>
+                    <div class="dynamic-container">
+                        <img src="https://via.placeholder.com/200x200.png?text=Imagen+4" alt="Imagen 4">
+                        <div class="content">
+                            <h3>Contenedor 4</h3>
+                        </div>
+                    </div>
+                    <div class="dynamic-container">
+                        <img src="https://via.placeholder.com/200x200.png?text=Imagen+5" alt="Imagen 5">
+                        <div class="content">
+                            <h3>Contenedor 5</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-media">
+                <h2>Síguenos en redes sociales</h2>
+                <ul class="social-links">
+                    <li><a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a></li>
+                    <li><a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a></li>
+                    <li><a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a></li>
+                    <li><a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a></li>
+                    <li><a href="#" aria-label="YouTube"><i data-lucide="youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Términos de uso</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
